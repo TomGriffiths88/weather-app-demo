@@ -2,8 +2,8 @@ class Forecast {
 
     constructor(key, baseURI,  ) {
         this.key = `463J4uY3164C7YBeaBAfx5F4LNvpUr5f`;
-        this.weatherURI = 'http://dataservice.accuweather.com/currentconditions/v1/';
-        this.cityURI = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+        this.weatherURI = 'https://dataservice.accuweather.com/currentconditions/v1/';
+        this.cityURI = 'https://dataservice.accuweather.com/locations/v1/cities/search';
     }
 
     async updateCity(city) {
@@ -27,10 +27,3 @@ class Forecast {
     };
 
 }
-
-
-
-
-
-
-
